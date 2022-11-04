@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie site </title>
+</head>
+
+<body>
+    <div id="filter-container">
+        <div id="categoryFilterContainer">
+            <label for="category">category:</label>
+            <select name="category" id="categoryFilter">
+                <option value="comedy">comedy</option>
+                <option value="drama">drama</option>
+                <option value="horror">horror</option>
+            </select>
+        </div>
+        <br>
+        <div id="lengthFilter">
+
+            <input type="text" id="fromLen" placeholder="from length">
+
+            <input type="text" id="toLen" placeholder="to length"><br>
+            <input type="button" value="filter by length" id="filterLengthBtn">
+        </div>
+        <br>
+        <div id="sortContainer">
+            <label for="sortBy">sort by:</label>
+            <select name="sortBy" id="sortBySelect">
+                <option value="category">category</option>
+                <option value="name">name</option>
+                <option value="length">length</option>
+                <option value="price">price</option>
+            </select>
+        </div>
+        <br>
+        <div id="search-container">
+            <input type="text" id="searchInput" placeholder="Search Movie">
+        </div>
+    </div>
+
+    <div id="movies-container">
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

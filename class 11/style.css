@@ -1,0 +1,12 @@
+.moviesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.movieDiv {
+  padding: 10px;
+  margin: 10px;
+  background-color: gray;
+}
